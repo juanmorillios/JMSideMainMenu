@@ -9,17 +9,41 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  //IBOulets
+  @IBOutlet var leftContraings: NSLayoutConstraint!
+  
+  //Vars
+  var mainMenuActive = false
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    
+  }
+  
+  //Actions
+  @IBAction func openMainMenu(_ sender: UIBarButtonItem) {
+    if (mainMenuActive) {
+    
+      leftContraings.constant = -187
+    
+    } else {
+    
+      leftContraings.constant = 0
+      UIView.animate(withDuration: 0.3, animations: {
+      
+        self.view.layoutIfNeeded()
+      
+      })
+      
+      mainMenuActive = !mainMenuActive
+    
+    }
+    
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
-
-}
+ }
 
