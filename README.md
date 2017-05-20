@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-# ${1:JMSideMainMenu}
+## ${1:JMSideMainMenu}
 
-# Installation
+## Installation
 
 All you need to do is drop JMSideMainMenu files into your project.
 
