@@ -2,21 +2,17 @@
   <content><![CDATA[
 # ${1:JMSideMainMenu}
 
-TODO: Write a project description
-
 ## Installation
 
-TODO: All you need to do is drop JMSideMainMenu files into your project.
+All you need to do is drop JMSideMainMenu files into your project.
 
 ## Usage
 
-TODO: Write usage instructions
-
 ## Requirements
 
-# Swift3 or higher
-# Xcode 8 or higher
-# iOS 8.0 or higher
+## Swift3 or higher
+## Xcode 8 or higher
+## iOS 8.0 or higher
 
 ## Demo
 
@@ -32,15 +28,15 @@ Build and run the JMSideMainMenu project in Xcode to see JMSideMainMenu in actio
 
 ## History
 
-TODO: Write history
+Write history
 
 ## Credits
 
-TODO: If you have some suggest please post me an
+If you have some suggest please post me an
 
 ## License
 
-TODO: Write license
+
 ]]></content>
   <tabTrigger>MIT License.</tabTrigger>
 </snippet>
