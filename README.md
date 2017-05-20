@@ -10,9 +10,9 @@ All you need to do is drop JMSideMainMenu files into your project.
 
 ## Requirements
 
-## Swift3 or higher
-## Xcode 8 or higher
-## iOS 8.0 or higher
+* Swift3 or higher
+* Xcode 8 or higher
+* iOS 8.0 or higher
 
 ## Demo
 
