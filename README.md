@@ -32,7 +32,7 @@ Write history
 
 ## Credits
 
-If you have some suggest please post me an
+If you have some suggest please post me an [hare](https://github.com/Jvaeyhcd/HcdSpecialField/issues/new)
 
 ## License
 
