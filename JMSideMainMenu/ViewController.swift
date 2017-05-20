@@ -13,15 +13,17 @@ class ViewController: UIViewController {
   //IBOulets
   @IBOutlet var leftContraings: NSLayoutConstraint!
   
-  //Vars
+  @IBOutlet var leftMainMenu: UIView!
+  //vars
   var mainMenuActive = false
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    
-    
-    
+   
+    //Properties of Views
+    leftMainMenu.layer.shadowOpacity = 1
+    leftMainMenu.layer.shadowRadius = 6
+
   }
   
   //Actions

@@ -76,6 +76,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="leftContraings" destination="Ok9-dj-sVF" id="t4Z-Ak-V1A"/>
+                        <outlet property="leftMainMenu" destination="M1s-fo-1se" id="6ad-U5-wwX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
