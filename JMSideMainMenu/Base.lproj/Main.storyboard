@@ -24,30 +24,15 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1s-fo-1se">
                                 <rect key="frame" x="0.0" y="64" width="187" height="603"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7v-ye-NZq">
-                                        <rect key="frame" x="70" y="213" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i0-ea-8fM">
+                                        <rect key="frame" x="70" y="39" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NH-NN-VUj">
-                                        <rect key="frame" x="70" y="271" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RS3-b6-X3E">
-                                        <rect key="frame" x="70" y="318" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g3e-AH-ibO">
-                                        <rect key="frame" x="45" y="42" width="96" height="92"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="603" id="8H8-It-vBt"/>
-                                    <constraint firstAttribute="width" constant="187" id="C4F-vf-WXJ"/>
+                                    <constraint firstAttribute="width" constant="187" id="zUg-hS-YJe"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGT-ur-Wdz">
@@ -59,11 +44,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.29019607843137252" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="M1s-fo-1se" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5aN-XW-PKE"/>
                             <constraint firstItem="zGT-ur-Wdz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A3t-ed-b0e"/>
+                            <constraint firstItem="M1s-fo-1se" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-187" id="AVN-ZO-aS0"/>
                             <constraint firstItem="zGT-ur-Wdz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ky5-Sr-6sU"/>
-                            <constraint firstItem="M1s-fo-1se" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-187" id="Ok9-dj-sVF"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M1s-fo-1se" secondAttribute="bottom" id="cz8-fh-1lq"/>
+                            <constraint firstItem="M1s-fo-1se" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ivq-ze-qzI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M1s-fo-1se" secondAttribute="bottom" id="kP1-ru-7KH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="JMSideMainMenu" id="fNl-SL-jhj">
@@ -75,8 +60,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="leftContraings" destination="Ok9-dj-sVF" id="t4Z-Ak-V1A"/>
-                        <outlet property="leftMainMenu" destination="M1s-fo-1se" id="6ad-U5-wwX"/>
+                        <outlet property="leftContraings" destination="AVN-ZO-aS0" id="VeO-uU-JYl"/>
+                        <outlet property="leftMainMenu" destination="M1s-fo-1se" id="3re-k6-4PZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

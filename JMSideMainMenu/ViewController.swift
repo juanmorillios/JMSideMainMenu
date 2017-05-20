@@ -19,33 +19,35 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-   
+    
     //Properties of Views
     leftMainMenu.layer.shadowOpacity = 1
     leftMainMenu.layer.shadowRadius = 6
-
+    
   }
   
   //Actions
-  @IBAction func openMainMenu(_ sender: UIBarButtonItem) {
+  @IBAction func openMainMenu(_ sender: Any) {
     if (mainMenuActive) {
-    
-      leftContraings.constant = -187
-    
+      
+      leftContraings.constant = -197
+      
     } else {
-    
+      
       leftContraings.constant = 0
       UIView.animate(withDuration: 0.3, animations: {
-      
+        
         self.view.layoutIfNeeded()
-      
+        
       })
-      
-      mainMenuActive = !mainMenuActive
     
     }
     
+      mainMenuActive = !mainMenuActive
+      
+    }
+    
   }
+  
 
- }
 
