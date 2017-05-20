@@ -12,11 +12,11 @@ class ViewController: UIViewController {
   
   //IBOulets
   @IBOutlet var leftContraings: NSLayoutConstraint!
-  
   @IBOutlet var leftMainMenu: UIView!
+  
   //vars
   var mainMenuActive = false
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -29,25 +29,18 @@ class ViewController: UIViewController {
   //Actions
   @IBAction func openMainMenu(_ sender: Any) {
     if (mainMenuActive) {
-      
-      leftContraings.constant = -197
-      
+      leftContraings.constant = -207
     } else {
-      
       leftContraings.constant = 0
       UIView.animate(withDuration: 0.3, animations: {
-        
         self.view.layoutIfNeeded()
-        
       })
-    
-    }
-    
-      mainMenuActive = !mainMenuActive
       
     }
-    
+    mainMenuActive = !mainMenuActive
   }
   
+}
+
 
 

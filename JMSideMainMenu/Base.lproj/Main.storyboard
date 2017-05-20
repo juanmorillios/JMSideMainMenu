@@ -25,9 +25,37 @@
                                 <rect key="frame" x="0.0" y="64" width="187" height="603"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i0-ea-8fM">
-                                        <rect key="frame" x="70" y="39" width="46" height="30"/>
+                                        <rect key="frame" x="61" y="29" width="64" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Profile">
+                                            <color key="titleColor" red="0.98478190099999996" green="0.94542100689999997" blue="0.99118381079999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ubl-rb-Chu" kind="show" id="khn-go-A3C"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xto-SS-k7r">
+                                        <rect key="frame" x="26" y="94" width="135" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Configuration">
+                                            <color key="titleColor" red="0.98478190099999996" green="0.94542100689999997" blue="0.99118381079999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="WCP-Jw-vZv" kind="show" id="0Ju-5b-wgb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3e-QY-C0n">
+                                        <rect key="frame" x="36" y="163" width="115" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="Notification">
+                                            <color key="titleColor" red="0.98478190099999996" green="0.94542100689999997" blue="0.99118381079999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yQo-sd-eHp" kind="show" id="sbt-mU-i0V"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,7 +73,7 @@
                         <color key="backgroundColor" red="0.29019607843137252" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="zGT-ur-Wdz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A3t-ed-b0e"/>
-                            <constraint firstItem="M1s-fo-1se" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-187" id="AVN-ZO-aS0"/>
+                            <constraint firstItem="M1s-fo-1se" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-197" id="AVN-ZO-aS0"/>
                             <constraint firstItem="zGT-ur-Wdz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ky5-Sr-6sU"/>
                             <constraint firstItem="M1s-fo-1se" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ivq-ze-qzI"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M1s-fo-1se" secondAttribute="bottom" id="kP1-ru-7KH"/>
@@ -67,6 +95,69 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1068" y="120.98950524737631"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="B3Y-Xg-9ZH">
+            <objects>
+                <viewController id="ubl-rb-Chu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N5b-gw-rw9"/>
+                        <viewControllerLayoutGuide type="bottom" id="2uL-fR-xrD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mEq-gU-SuA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="QEr-3D-8mL">
+                        <barButtonItem key="backBarButtonItem" title=" " id="zbl-28-M5T"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bV4-KK-o6k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1956" y="-107"/>
+        </scene>
+        <!--Configuration-->
+        <scene sceneID="hUo-Xx-1hi">
+            <objects>
+                <viewController id="WCP-Jw-vZv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O9M-Gf-h8m"/>
+                        <viewControllerLayoutGuide type="bottom" id="c4g-T0-JhW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gZy-Yw-VBE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Configuration" id="8dz-Z0-XlD">
+                        <barButtonItem key="backBarButtonItem" title=" " id="B6e-BM-llJ"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DYt-Os-dJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1956" y="544"/>
+        </scene>
+        <!--Notification-->
+        <scene sceneID="xg3-V7-w0f">
+            <objects>
+                <viewController id="yQo-sd-eHp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fr4-Gv-hpe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hdt-TF-pCH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sdc-95-my9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Notification" id="VWQ-9E-cJb">
+                        <barButtonItem key="backBarButtonItem" title=" " id="JYg-Ka-9b7"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4BA-jy-XW8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2644" y="273"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JHJ-wb-hpf">
