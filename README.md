@@ -34,6 +34,8 @@ Write history
 
 If you have some suggest please post me an [hare](https://github.com/Jvaeyhcd/HcdSpecialField/issues/new)
 
+* Juan Morillo - juanmorillios
+
 ## License
 
 
