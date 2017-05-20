@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1068" y="120.98950524737631"/>
+            <point key="canvasLocation" x="1038" y="121"/>
         </scene>
         <!--Profile-->
         <scene sceneID="B3Y-Xg-9ZH">
@@ -107,7 +107,7 @@
                     <view key="view" contentMode="scaleToFill" id="mEq-gU-SuA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="QEr-3D-8mL">
                         <barButtonItem key="backBarButtonItem" title=" " id="zbl-28-M5T"/>
@@ -115,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bV4-KK-o6k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1956" y="-107"/>
+            <point key="canvasLocation" x="2577" y="-215"/>
         </scene>
         <!--Configuration-->
         <scene sceneID="hUo-Xx-1hi">
@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DYt-Os-dJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1956" y="544"/>
+            <point key="canvasLocation" x="2577" y="498"/>
         </scene>
         <!--Notification-->
         <scene sceneID="xg3-V7-w0f">
@@ -149,7 +149,7 @@
                     <view key="view" contentMode="scaleToFill" id="Sdc-95-my9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Notification" id="VWQ-9E-cJb">
                         <barButtonItem key="backBarButtonItem" title=" " id="JYg-Ka-9b7"/>
@@ -157,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4BA-jy-XW8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2644" y="273"/>
+            <point key="canvasLocation" x="3585" y="121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JHJ-wb-hpf">
@@ -175,7 +175,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWu-jU-IdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128.80000000000001" y="120.98950524737631"/>
+            <point key="canvasLocation" x="319" y="121"/>
         </scene>
     </scenes>
     <resources>
