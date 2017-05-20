@@ -37,6 +37,6 @@ If you have some suggest please post me an
 ## License
 
 
-]]></content>
+</content>
   <tabTrigger>MIT License.</tabTrigger>
 </snippet>
